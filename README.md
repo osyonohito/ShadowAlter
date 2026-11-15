@@ -1,8 +1,8 @@
 [English](README.md) | [日本語](README-ja.md)
 
-# Re-Shadowverse
+# ShadowAlter
  
-**Re-Shadowverse** is an unofficial, independently developed fan project dedicated to bringing back the original *Shadowverse* after the end of its official service.
+**ShadowAlter** is an unofficial, independently developed fan project dedicated to bringing back the original *Shadowverse* after the end of its official service.
  
 By using the original Steam and DMM game clients with a community-operated server, this project aims to recreate the Shadowverse experience we all remember.
  
@@ -46,7 +46,7 @@ What if you could do more than simply relive the old Shadowverse?
  
 **What if you could finally build the decks you always dreamed of?**
  
-That's why I created Re-Shadowverse.
+That's why I created ShadowAlter.
  
 Of course, the project is still fighting an ongoing war against bugs.
  
@@ -66,10 +66,10 @@ Extract the downloaded ZIP file to any folder of your choice.
 For example:
  
 ```text
-C:\Re-Shadowverse\
+C:\ShadowAlter\
 ```
  
-After extracting the files, run `Re-Shadowverse.exe`.
+After extracting the files, run `ShadowAlter.exe`.
  
 On the first launch, the launcher will perform the necessary setup and check for existing game files.
  
@@ -79,19 +79,21 @@ On the first launch, the launcher will perform the necessary setup and check for
  
 ## How to Launch
  
-1. Run `Re-Shadowverse.exe`.
+1. Run `ShadowAlter.exe`.
 2. Allow the launcher to complete the necessary setup.
 3. Shadowverse will launch automatically.
 4. Enjoy the game!
-The launcher applies the necessary changes for connecting to the community server only when launching Shadowverse through Re-Shadowverse.
+On the first launch, the launcher sets up the connection to the community server by adding two lines to the Windows hosts file and registering the server certificate. Windows asks for administrator permission once for this. Later launches do not ask again.
  
-These temporary changes are no longer active after the game closes.
+The original Steam or DMM installation files are not modified.
  
-The original Steam or DMM installation files are not permanently modified.
+### Removing the connection settings
+ 
+Before deleting ShadowAlter, run the included `RemoveConnectionSettings.cmd`. It removes the hosts entries and the server certificate and returns Windows to its original state.
  
 ## Updates
  
-From version 1.0.0, `Re-Shadowverse.exe` updates itself automatically at launch.
+From version 1.0.0, `ShadowAlter.exe` updates itself automatically at launch.
  
 The new version takes effect from the next launch. There is no need to download and replace the files manually.
  
@@ -127,7 +129,7 @@ With English selected, card names, abilities and other text appear in English, b
  
 ## Supported Formats
  
-Re-Shadowverse uses the following three main deck formats:
+ShadowAlter uses the following three main deck formats:
  
 - **Custom Rotation**
 - **Unlimited**
@@ -136,7 +138,7 @@ Throwback Rotation is not used as a standard deck format, as it does not align w
  
 ## Multiplayer
  
-Re-Shadowverse uses its own community server rather than the official Shadowverse servers.
+ShadowAlter uses its own community server rather than the official Shadowverse servers.
  
 During periods of low player activity, finding an opponent may take some time.
  
@@ -177,7 +179,7 @@ Please avoid including passwords, authentication tokens, or other sensitive info
  
 ## Donations
  
-**Re-Shadowverse is completely free to play.**
+**ShadowAlter is completely free to play.**
  
 Donations do not affect access to features, updates, online matches, or any other part of the game.
  
@@ -191,15 +193,15 @@ Donations are entirely optional.
  
 If sufficient funds have been collected to cover operating expenses, donations may be temporarily suspended.
  
-## Important Information
+## Other
  
-Re-Shadowverse is an unofficial fan project.
+ShadowAlter is an unofficial fan project.
  
 It is not affiliated with, endorsed by, or associated with Cygames, Inc. or the official Shadowverse development and operations teams.
  
 All rights to Shadowverse-related names, characters, artwork, audio, and other intellectual property belong to their respective owners.
  
-Re-Shadowverse was created to preserve the experience of the original Shadowverse and provide a way for its former players to enjoy the game again after the official service ended.
+ShadowAlter was created to preserve the experience of the original Shadowverse and provide a way for its former players to enjoy the game again after the official service ended.
  
 ## Disclaimer
  
