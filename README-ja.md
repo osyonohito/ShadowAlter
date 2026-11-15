@@ -1,8 +1,8 @@
 [English](README.md) | [日本語](README-ja.md)
 
-# Re-Shadowverse
+# ShadowAlter
  
-Re-Shadowverse は、サービス終了した旧作「Shadowverse」をもう一度遊べるようにすることを目的とした、非公式の個人開発プロジェクトです。
+ShadowAlter は、サービス終了した旧作「Shadowverse」をもう一度遊べるようにすることを目的とした、非公式の個人開発プロジェクトです。
  
 既存の公式クライアント（Steam版・DMM版）を活用し、独自のサーバー環境を通じて、かつてのゲーム体験を再現することを目指しています。
  
@@ -51,10 +51,10 @@ Beyond も発売されて、少しずつそっちにシフトして…
 例：
  
 ```text
-C:\Re-Shadowverse\
+C:\ShadowAlter\
 ```
  
-展開後、Re-Shadowverse.exe を起動してください。
+展開後、ShadowAlter.exe を起動してください。
  
 初回起動時に必要な設定やゲームファイルの確認が行われます。
  
@@ -64,19 +64,21 @@ C:\Re-Shadowverse\
  
 ## 起動方法
  
-1. Re-Shadowverse.exe を起動
+1. ShadowAlter.exe を起動
 2. 必要な処理が完了するまで待つ
 3. Shadowverseが起動
 4. 通常通りゲームをプレイ
-Re-Shadowverse経由で起動している間だけ、コミュニティサーバーへの接続に必要な処理が適用されます。
+初回起動時に、コミュニティサーバーへ接続するための設定（hosts ファイルへの2行の追加と、サーバー証明書の登録）を行います。このとき一度だけ、Windows の管理者の確認が表示されます。2回目以降は表示されません。
  
-ゲーム終了後は、Re-Shadowverseによる一時的な変更も終了します。
+Steam版・DMM版のインストールファイルそのものを書き換えることはありません。
  
-Steam版・DMM版のインストールファイルそのものを恒久的に書き換えることはありません。
+### 接続設定を元に戻すには
+ 
+ShadowAlter を削除する前に、同梱の `RemoveConnectionSettings.cmd` を実行してください。hosts ファイルの追加分とサーバー証明書を削除し、Windows を元の状態に戻します。
  
 ## アップデート
  
-バージョン 1.0.0 以降、Re-Shadowverse.exe は起動時に自動で最新版へ更新されます。
+バージョン 1.0.0 以降、ShadowAlter.exe は起動時に自動で最新版へ更新されます。
  
 更新は次回の起動から反映されます。手動で配布ファイルを入れ替える必要はありません。
  
@@ -121,7 +123,7 @@ Steam版・DMM版のインストールファイルそのものを恒久的に書
  
 ## 対戦について
  
-Re-Shadowverseのオンライン機能は、公式Shadowverseのサーバーではなく、Re-Shadowverse用のコミュニティサーバーを使用します。
+ShadowAlterのオンライン機能は、公式Shadowverseのサーバーではなく、ShadowAlter用のコミュニティサーバーを使用します。
  
 プレイヤー数が少ない時間帯は、対戦相手が見つかりにくい場合があります。
  
@@ -158,7 +160,7 @@ Re-Shadowverseのオンライン機能は、公式Shadowverseのサーバーで�
  
 ## 寄付について
  
-Re-Shadowverseは完全無料です。
+ShadowAlterは完全無料です。
  
 寄付をしなくても、機能・アップデート・オンライン対戦などに違いはありません。
  
@@ -170,15 +172,15 @@ Re-Shadowverseは完全無料です。
  
 十分な運営資金が確保できた場合、寄付の受付を一時停止することがあります。
  
-## 大切なこと
+## その他
  
-Re-Shadowverseは非公式のファンプロジェクトです。
+ShadowAlterは非公式のファンプロジェクトです。
  
 株式会社CygamesおよびShadowverse公式とは関係ありません。
  
 Shadowverseに関連する名称・画像・音声・その他の著作物の権利は、それぞれの権利者に帰属します。
  
-Re-Shadowverseは、旧Shadowverseを好きだった人たちが、サービス終了後もゲームを楽しめる環境を残すことを目的として開発されています。
+ShadowAlterは、旧Shadowverseを好きだった人たちが、サービス終了後もゲームを楽しめる環境を残すことを目的として開発されています。
  
 ## 注意事項
  
