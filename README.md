@@ -1,3 +1,5 @@
+[English](README.md) | [日本語](README-ja.md)
+
 # Re-Shadowverse
  
 **Re-Shadowverse** is an unofficial, independently developed fan project dedicated to bringing back the original *Shadowverse* after the end of its official service.
