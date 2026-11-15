@@ -1,3 +1,5 @@
+[English](README.md) | [日本語](README-ja.md)
+
 # Re-Shadowverse
  
 Re-Shadowverse は、サービス終了した旧作「Shadowverse」をもう一度遊べるようにすることを目的とした、非公式の個人開発プロジェクトです。
