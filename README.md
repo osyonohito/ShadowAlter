@@ -28,8 +28,6 @@ The first launch will prepare the necessary game data.
 
 You need a legitimately obtained copy of the original Shadowverse Steam or DMM game client.
 
-The launcher does not modify the Windows hosts file, certificate store, or original game installation.
-
 **Important Notes**
 - Do not extract the launcher to a protected folder such as `Program Files`.
 - Always start the game through `ShadowAlter.exe`.
