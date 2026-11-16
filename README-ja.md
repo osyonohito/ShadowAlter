@@ -52,3 +52,13 @@ ShadowAlterは、サービス終了した旧作「Shadowverse」を再び遊べ�
 本プロジェクトは株式会社CygamesおよびShadowverse公式とは関係ありません。
 
 Shadowverseに関する著作物の権利は、それぞれの権利者に帰属します。
+
+## スペシャルサンクス
+
+ShadowAlterの開発にあたり、以下のプロジェクトを参考にさせていただきました。
+
+- [SVSimServer](https://github.com/SVSimOrg/SVSimServer)
+- [OpenVerse](https://github.com/Atamol/OpenVerse)
+- [Shadowbus](https://github.com/AraragiHoozuki/Shadowbus)
+
+旧Shadowverseの復活に取り組んでいる開発者の皆様に感謝します。
