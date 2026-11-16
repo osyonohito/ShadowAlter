@@ -28,8 +28,6 @@ ShadowAlterは、サービス終了した旧作「Shadowverse」を再び遊べ�
 
 正規に入手した旧ShadowverseのSteam版またはDMM版のゲームファイルが必要です。
 
-ランチャーはWindowsのhostsファイルや証明書ストアを変更せず、公式クライアントのインストール先も変更しません。
-
 **注意事項**
 - `Program Files` など、書き込みに管理者権限が必要な場所には展開しないでください。
 - ゲームは必ず`ShadowAlter.exe`から起動してください。
