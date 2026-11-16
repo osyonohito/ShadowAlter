@@ -54,3 +54,13 @@ Contact: shadowalter.dev@gmail.com
 ShadowAlter is not affiliated with or endorsed by Cygames, Inc. or the official Shadowverse team.
 
 All rights to Shadowverse-related intellectual property belong to their respective owners.
+
+## Special Thanks
+
+The following community projects have been valuable references during the development of ShadowAlter.
+
+- [SVSimServer](https://github.com/SVSimOrg/SVSimServer)
+- [OpenVerse](https://github.com/Atamol/OpenVerse)
+- [Shadowbus](https://github.com/AraragiHoozuki/Shadowbus)
+
+Many thanks to the developers working to bring back the original Shadowverse.
