@@ -1,6 +1,10 @@
 # ShadowAlter
 
-English | [日本語](README-ja.md)
+[English](README.md) | [日本語](README-ja.md)
+
+## Download / ダウンロード
+
+[Download ShadowAlter](https://github.com/osyonohito/ShadowAlter/releases/latest)
 
 ShadowAlter is an unofficial, independently developed fan project that aims to make the original Shadowverse playable again after the end of its official service.
 
