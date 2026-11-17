@@ -1,6 +1,10 @@
 # ShadowAlter
 
-[English](README.md) | 日本語
+[English](README.md) | [日本語](README-ja.md)
+
+## Download / ダウンロード
+
+[Download ShadowAlter](https://github.com/osyonohito/ShadowAlter/releases/latest)
 
 ShadowAlterは、サービス終了した旧作「Shadowverse」を再び遊べるようにするための、非公式の個人開発プロジェクトです。
 
