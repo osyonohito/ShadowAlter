@@ -19,6 +19,8 @@ It uses the original Steam or DMM game client with a community-operated server.
 - Custom Rotation, Unlimited, and Cross Craft
 - Japanese and English support (English requires the Steam version)
 - Resurgent Cards (with some restrictions)
+- collab CPU battles (Quests)
+- Most nerfed cards restored to their pre-nerf versions
 
 Certain card abilities and interactions may cause errors or synchronization issues during battles.
 
