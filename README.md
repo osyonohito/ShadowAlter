@@ -68,3 +68,29 @@ The following community projects have been valuable references during the develo
 - [Shadowbus](https://github.com/AraragiHoozuki/Shadowbus)
 
 Many thanks to the developers working to bring back the original Shadowverse.
+
+## Changelog
+
+### 1.0.6 (2026/11/24)
+- Game data updated on the server (card descriptions, images, etc.) is now downloaded automatically when the launcher starts
+
+### 1.0.5 (2026/11/24)
+- Card data is now checked against the server at startup and updated automatically (needed for the nerf reverts)
+- The launcher now updates itself before checking the server
+
+### 1.0.4 (2026/11/24)
+- Fixed: on the global Steam version, quest opponents from the 9th onward can now be selected
+
+### 1.0.3 (2026/11/22)
+- Collab CPU battles (Quests) are now available
+- Fixed: quest opponents from the 9th onward can now be selected (Steam / DMM)
+
+### 1.0.2
+- I thought this version already existed, so I skipped it. I am a fool.
+
+### 1.0.1 (2026/11/19)
+- Switched to connecting through our own domain. The launcher no longer modifies Windows settings (hosts file / certificates) and no longer needs administrator rights
+- Added support for the global Steam version
+
+### 1.0.0 (2026/11/16)
+- Initial release
